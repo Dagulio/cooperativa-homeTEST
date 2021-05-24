@@ -4,3 +4,5 @@ from home.models import *
 admin.site.register(Persona)
 admin.site.register(administrador)
 admin.site.register(socio)
+
+#ejemplo de cambio
