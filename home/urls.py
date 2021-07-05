@@ -5,8 +5,9 @@ from django.contrib import admin
 from django.http import render
 
 
-urlpatterns = [
+urlpatterns = {
     path('admin/', admin.site.urls),
-    path(render,home.html),
-    path('home/', home)
-]
+    path(render, home.html),
+    path('home/', home),
+    path('login/', login, name='login')
+}

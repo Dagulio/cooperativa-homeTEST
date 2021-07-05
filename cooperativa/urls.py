@@ -16,9 +16,10 @@ Including another URLconf
 
 from django.urls import path
 from home.views import home
+from home.views import login
 urlpatterns = [
 
 
     path('home/', home),
-
+    path('login/', login),
 ]

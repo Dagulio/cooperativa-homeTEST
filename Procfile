@@ -1,0 +1,1 @@
+gunicorn cooperativa.wsgi:application --log-file -
